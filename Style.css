@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 
+
 }
 
 h2 {
@@ -13,94 +14,123 @@ h2 {
 div.logo {
     padding: 0.5%;
     max-width: 13%;
-    display: flex;
+    display: inline-flex;
 }
 
 nav {
-    display: flex;
+    display: inline-flex;
     text-decoration: none;
+    margin-left: 33%;
 }
 
-nav.menu a{
+nav.menu a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: large;    
-}
-
-div.quemsomosnos {
+    font-size: large;
+    padding: 30px;
 
 }
 
-div.vantagens {
+div.quemsomosnos {}
 
-}
+div.vantagens {}
 
-div.contatos{
-
-}
+div.contatos {}
 
 section.cabecalho {
     display: flex;
 }
 
 div.texto1 {
-    margin: 2.8%;
-    max-width: 23%;
-    min-width: 20%;
-    background-color: pink;
+    margin: 3%;
+    font-size: 30px;
 }
 
-div.texto1 a{
+div.texto1 a {
     padding: 2%;
+    margin-left: 25%;
     text-decoration: none;
     background-color: #DA5F17;
-    border-radius: 7%;
+    border-radius: 6%;
     color: white;
-    font-size: large;;
-
+    font-size: large;
 }
 
 div.img1 {
     margin-top: 3%;
     display: inline-flex;
-    max-width: 50%;
-    margin-left: 20%;
-    background-color: aqua;
+    max-width: 60%;
 }
 
 section.vantagem {
     max-width: 100%;
+    display: flex;
+    margin-top: 3%;
 }
 
 div.img2 {
-    display: inline-block;
+    display: inline-flex;
+    max-height: 45%;
 }
 
-div.titulo1 {
-    display: inline-block;
-    text-align: right;
+div.titulo1 h2 {
+    display: inline-flex;
+    margin-top: 18%;
+    margin-left: 20%;
+    max-width: 55%;
     max-height: 15%;
+    text-align: left;
+    font-size: 30px;
 }
 
-div.texto2 {
-    max-width: 15%;
-    display: inline-block;
+div.titulo1 p {
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 20%;
+    max-width: 65%;
+    display: inline-flex;
+    font-size: 20px;
 }
 
 section.oque {
     max-width: 100%;
-}
-
-div.titulo2 {
-    display: inline-block;
-    text-align: center;
-    width: 45%;
+    background-color: aqua;
+    display: flex;
+    margin-top: 5%;
 }
 
 div.grupo1 {
     max-width: 27.5%;
     display: inline-block;
+    background-color: bisque;
+}
+
+div.titulo2 h2 {
+    margin-left: 25%;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+div.titulo2 p {
+    margin-top: 10%;
+    margin-left: 13%;
+    font-size: 21px;
+    max-width: 80%;
+    display: inline-block;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+div.titulo2 a {
+    text-decoration: none;
+    background-color: #DA5F17;
+    border-radius: 6%;
+    color: white;
+    font-size: 20px;
+
 }
 
 div.texto3 {
@@ -111,10 +141,11 @@ div.texto3 {
 div.grupo2 {
     max-width: 27.5%;
     display: inline-block;
+    background-color: violet;
 }
 
-div.botao2 {
-    text-align: center;
+div.botao2 a {
+    display: inline-block;
     text-decoration: none;
     border: #DA5F17;
     border-radius: 50%;
@@ -123,15 +154,23 @@ div.botao2 {
 section.descricao {
     max-width: 100%;
     display: inline-block;
+    background-color: #DA5F17;
 }
 
 div.desc {
     display: inline-block;
-    max-width: 15%;
-    margin: 1% 2%;
+    width: 15%;
+    margin: 5% 4% 5% 5%;
     text-align: center;
     border-radius: 10%;
-    height: 95%;
+    background-color: white;
+    border-color: #DA5F17;
+    border-style: outset;
+    box-shadow: black;
+}
+
+div.desc img {
+    margin-top: 10%;
 }
 
 section.comentarios {
