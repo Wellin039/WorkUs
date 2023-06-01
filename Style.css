@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    color: #DA5F17;
+    font-size: 20px;
+}
+
+div.logo {
+    padding: 0.5%;
+    max-width: 13%;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    text-decoration: none;
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;    
+}
+
+div.quemsomosnos {
+
+}
+
+div.vantagens {
+
+}
+
+div.contatos{
+
+}
+
+section.cabecalho {
+    display: flex;
+}
+
+div.texto1 {
+    margin: 2.8%;
+    max-width: 23%;
+    min-width: 20%;
+    background-color: pink;
+}
+
+div.texto1 a{
+    padding: 2%;
+    text-decoration: none;
+    background-color: #DA5F17;
+    border-radius: 7%;
+    color: white;
+    font-size: large;;
+
+}
+
+div.img1 {
+    margin-top: 3%;
+    display: inline-flex;
+    max-width: 50%;
+    margin-left: 20%;
+    background-color: aqua;
+}
+
+section.vantagem {
+    max-width: 100%;
+}
+
+div.img2 {
+    display: inline-block;
+}
+
+div.titulo1 {
+    display: inline-block;
+    text-align: right;
+    max-height: 15%;
+}
+
+div.texto2 {
+    max-width: 15%;
+    display: inline-block;
+}
+
+section.oque {
+    max-width: 100%;
+}
+
+div.titulo2 {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+}
+
+div.grupo1 {
+    max-width: 27.5%;
+    display: inline-block;
+}
+
+div.texto3 {
+    max-width: 15%;
+    display: inline-block;
+}
+
+div.grupo2 {
+    max-width: 27.5%;
+    display: inline-block;
+}
+
+div.botao2 {
+    text-align: center;
+    text-decoration: none;
+    border: #DA5F17;
+    border-radius: 50%;
+}
+
+section.descricao {
+    max-width: 100%;
+    display: inline-block;
+}
+
+div.desc {
+    display: inline-block;
+    max-width: 15%;
+    margin: 1% 2%;
+    text-align: center;
+    border-radius: 10%;
+    height: 95%;
+}
+
+section.comentarios {
+    display: inline-block
+}
+
+div.img3 {
+    display: inline-block
+}
+
+.comentario {
+    display: inline-block;
+    max-width: 25%;
+    text-align: justify;
+    border: solid #DA5F17;
+    text-shadow: 20px;
+    margin-bottom: 1%;
+    margin-left: 13%;
+}
+
+footer {
+    text-align: center;
+}
